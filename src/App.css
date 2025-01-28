@@ -1,0 +1,23 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 400; 
+}
+.bold-text{
+  font-weight: bold;
+}
