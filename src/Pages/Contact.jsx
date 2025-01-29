@@ -15,7 +15,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-  // Vérification du remplissage des champs
+  // Vérification du remplissage des champs avant d'autoriser le submit
   if (!name || !email || !message) {
     setErrorMessage('Merci de remplir tous les champs.');
     setSuccessMessage('');
