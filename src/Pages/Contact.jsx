@@ -40,6 +40,11 @@ function Contact() {
       message: message,
     };
 
+    //Vérification console.log
+    console.log("Service ID:", serviceId);  
+    console.log("Template ID:", templateId);  
+    console.log("Public Key:", publicKey); 
+
     // Envoi du message via EmailJS
     emailjs.send(serviceId, templateId, templateParams, publicKey)
     .then((response) => {
