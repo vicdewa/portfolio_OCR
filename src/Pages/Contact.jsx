@@ -27,6 +27,11 @@ function Contact() {
     const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
+  // Vérification dans la console
+    console.log('Service ID:', serviceId);
+    console.log('Template ID:', templateId);
+    console.log('Public Key:', publicKey);
+
   // Create a new object that contains dynamic template params
     const templateParams = {
       from_name: name,
